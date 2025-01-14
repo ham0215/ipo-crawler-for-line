@@ -1,8 +1,4 @@
 const express = require('express');
-const line = require("@line/bot-sdk");
-const dayjs = require("dayjs");
-require("dayjs/locale/ja");
-const keibaCalendar = require("./keiba-calendar").keibaCalendar;
 
 const app = express();
 app.use(express.json());
