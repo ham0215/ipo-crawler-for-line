@@ -1,5 +1,5 @@
 # 軽量な Node.js イメージを使用
-FROM node:20-slim
+FROM node:22-slim
 
 # 作業ディレクトリを設定
 WORKDIR /usr/src/app
